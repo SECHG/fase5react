@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <a href="inicio.hmtl"><h1>Fase 5 Operar Grupo 301122_5</h1></a>
+      <a href="inicio.html"><h1>Fase 5 Operar Grupo 301122_5</h1></a>
       <div className="card">
           <h2>Integrantes:</h2>
           <h3>Sergio Estiven Chica Gallego</h3>
