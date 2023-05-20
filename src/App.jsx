@@ -9,25 +9,22 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <a href="inicio.hmtl"><h1>Fase 5 Operar Grupo 301122_5</h1></a>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+          <h2>Integrantes:</h2>
+          <h3>Sergio Estiven Chica Gallego</h3>
+          <h3>Diego Esteban Gaviria</h3>
+          <h3>Luis Eduardo Escobar</h3>
+          <h3>Juan David Rivera Betancur</h3>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <a href="inicio.html"><h3>Ir al Proyecto Final</h3></a>
     </>
   )
 }

@@ -1,0 +1,316 @@
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+/*Estilos-Generales*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(../Imagenes/paven.png)
+    
+}
+
+/*Cabecera*/
+#header{
+    min-width: 1024px;
+    width: 100%;
+    height: 250px;
+    margin: 0px auto;
+}
+
+#header{
+    text-decoration: none;
+}
+
+#header #logotipo{
+    width: 770px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+#header #logotipo img{
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    width: 140px;
+    border-radius: 75%;
+    box-shadow: 4px 4px 4px #1aaa2d ;
+}
+
+#header h1{
+    text-align: center;
+    font-size: 40px;
+    color: #27851b;
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing: 4px;
+    margin-top:  10px;
+    text-shadow: 1px 3px 4px #333; 
+    transition: all 300ms;
+}
+
+#header h1:hover{
+    text-shadow: 0px 3px 1px #333, 1px 3px 4px #31b246; 
+}
+
+#header h1 a{
+    color: #27851b;
+    text-decoration: none;
+}
+
+/*Barra de Navegacion*/
+
+#nav{
+    width: 100% ;
+    background-color: #333;
+    color: white;
+    height: 40px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    box-shadow: 1px 1px 2px green;
+    text-align: center;
+}
+
+#nav ul{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    width: 1090px;
+}
+
+#nav > ul > li {
+    display: inline-block;
+    line-height: 40px;
+    /*float: left;*/
+    border-right: 1px solid gray ;
+    transition: all 300ms;
+    margin: 0px auto;
+}
+
+#nav > ul > li a{
+    display: block;
+    padding-left: 20px ;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#nav > ul > li a:first-child{
+    border-left: 1px solid gray;
+
+}
+#nav > ul > li:hover{
+    background-color: #000000;
+    box-shadow: 3px 3px 5px green inset;
+}
+
+/*Menu Desplegable*/
+
+#nav > ul > li > ul {
+    display: none;
+    position: absolute;
+    width: 160px;
+    box-shadow: 0px 2px 2px gray;
+    z-index: 1;
+}
+
+#nav > ul >li:hover >ul {
+    display: block;
+}
+
+#nav > ul > li:hover >ul >li{
+    background-color: #f2f1f0;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 13px;
+    transition: all 300ms;
+}
+
+#nav > ul > li:hover >ul >li a{
+   color: #666666;
+}
+
+#nav > ul > li:hover >ul >li:hover{
+    box-shadow:  0px 0px 6px #ccc inset;
+    background-color: rgba(141, 201, 125, 0.603);
+}
+
+/*contenido*/
+
+#content {
+    font-family: 'Roboto Mono', monospace;
+    width:  1250px;
+    min-height: 2500px;
+    margin:  0px auto ;
+}
+
+/*Barra Lateral*/
+
+#aside {
+    display: block;
+    width:  180px;
+    margin: 5px auto;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    border-bottom: 1px dashed #000000;
+}
+
+#aside {
+    width: 200px;
+    float: left;
+    margin:  30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 3px grey;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#aside .widget{
+    display: block;
+    width:  180px;
+    margin: 5px auto;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    border-bottom: 1px dashed #333;
+}
+
+
+#aside .widget:last-child{
+     margin-bottom: 20px;
+}
+
+#aside h3{
+    display: block;
+    width: 100%;
+    color: #333;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #f2f3f2;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 15px;
+}
+
+#aside li {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    list-style: square;
+}
+
+/*Inicio Secciones*/
+
+
+#sections{
+    float: right;
+    width: 75%;
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 20px;
+}
+#sections .titulo{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#sections section{
+    margin-top:  40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px #c9c9c9;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+#sections .stickerone{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+
+#sections .stickertwo{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+    margin-left: 860px;
+
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/*
+.pregunta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}*/
+
+label{
+    padding: 10px; 
+}
+.nosotros {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imagen-desarrollador{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;  
+    margin: 20px;
+    box-shadow: 2px 2px 2px 3px #27851b;
+  }
+  
+
+/*Fin De Secciones*/
+
+.clearfix{
+    float: none;
+    clear: both;
+    width: auto;
+}
+
+/*pie de pagina*/
+
+#footer{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top:  40px;
+    background-color: #333 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    box-shadow: 2px 2px 4px gray;
+    position: absolute;
+    
+}

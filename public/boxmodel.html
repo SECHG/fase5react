@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+    <meta charset="utf-8"/>
+    <title>Audios</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="css/Style.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/logo.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+   </head> 
+   <body>
+        <!--Inicio Cabecera-->
+        <header id="header">
+            <div id="logotipo">
+                <img src="Imagenes/Logo_grupo.png" alt="Logotipo" title="Logo">
+            </div>
+            <h1>
+                <a href="inicio.html">
+                    Trabajo Colaborativo - Grupo 301122_5 - Fase 3
+                </a>
+            </h1>
+        </header>
+        <!--Fin Cabecera-->
+        <!--Menu de Navegacion-->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Temas</a>
+                    <ul>
+                        <li>
+                            <a href="selectorescss.html">Selectores CSS</a>
+                        </li> 
+                        <li>
+                            <a href="qselectorescss.html"> Questionario Selectores CSS</a>
+                        </li>
+                        <li>
+                            <a href="mediaqueries.html">Media Queries</a>
+                        </li>
+                        <li>
+                            <a href="qmediaquery.html"> Questionario Media Queries</a>
+                        </li>
+                        <li>
+                            <a href="flexbox.html">FlexBox</a>
+                        </li>
+                        <li>
+                            <a href="qflexbox.html"> Questionario FlexBox</a>
+                        </li>
+                        <li>
+                            <a href="boxmodel.html">Box Model</a>
+                        </li>
+                        <li>
+                            <a href="qboxmodel.html"> Questionario Box Model</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="audios.html">Audios</a>
+                </li>
+                <li>
+                    <a href="equipo.html">Equipo</a>
+                </li>
+            <ul>
+        </nav>
+         <!--Cotenido Central-->
+        <div id="content">
+            <!--Inicio Barra Lateral-->
+                <aside id="aside">
+                    <div class= "widget" id="login">
+                        <h3>Menu Alterno</h3>
+                        <ul>
+                            <li>
+                                <a href="inicio.html">Inicio</a>
+                            </li>
+                                <li>
+                                    <a href="inicio.html">Temas</a>
+                                    <ul>
+                                        <li>
+                                            <a href="selectorescss.html">Selectores CSS</a>
+                                        </li> <li>
+                                            <a href="mediaqueries.html">Media Queries</a>
+                                        </li>
+                                        <li>
+                                            <a href="flexbox.html">FlexBox</a>
+                                        </li>
+                                        <li>
+                                            <a href="boxmodel.html">Box Model</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            <li>    
+                                <a href="audios.html">Audios</a>
+                            </li>
+                            <li>
+                                <a href="equipo.html">Equipo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                 <!--Inicio sesiones-->
+            <div id="sections">
+                <section id="nosotros">
+                    <span class="sticker">
+                        <img class="stickerone" src="Imagenes/scotch.png" alt="Pegatina"/>
+                        <img class="stickertwo" src="Imagenes/scotch.png" alt="Pegatina"/>
+                    </span>
+                    <h2 class="titulo red">BOX MODEL</h2>
+                    <div class="nosotros d-flex flex-column justify-content-center align-items-center">
+                        <p>En CSS, el término "modelo de caja" se usa cuando se habla de diseño y diseño.
+                            El modelo de caja CSS es esencialmente una caja que envuelve cada elemento HTML. Consiste en: 
+                            márgenes, bordes, relleno y el contenido real. La siguiente imagen ilustra el modelo de caja:
+                            Al maquetar un documento, el motor de renderizado del navegador representa cada elemento como una caja rectangular, 
+                            conforme al estándar del modelo de caja básico de CSS. CSS determina el tamaño, la posición y las propiedades (color, fondo, tamaño del borde, etc.) de estas cajas.
+                            Cada caja está compuesta de cuatro partes (o áreas), definidas por sus respectivos límites: límite de contenido (content edge) , 
+                            límite de relleno (padding edge) , límite de borde (border edge) y límite de margen (margin edge).</p>
+                    </div>
+                </section>
+                <section id="nosotros">
+                    <span class="sticker">
+                        <img class="stickerone" src="Imagenes/scotch.png" alt="Pegatina"/>
+                        <img class="stickertwo" src="Imagenes/scotch.png" alt="Pegatina"/>
+                    </span>
+                    <h2 class="titulo red">Areas Box Model</h2>
+                    <div class="nosotros d-flex flex-column justify-content-center align-items-center">
+                        <br>
+                        <p>Inicias con la caja de contenido, que es la área en la que reside el contenido. Como aprendiste antes: este contenido puede 
+                            controlar el tamaño de su elemento principal, por lo que suele ser el área de tamaño más variable.
+                        </p>
+                        <br>
+                        <p>
+                            La caja de padding (relleno) rodea la caja de contenido y es el espacio creado por la propiedad de padding.
+                            Debido a que el padding está dentro de la caja, el fondo de la caja será visible en el espacio que crea. 
+                            Si nuestra caja tiene reglas de desbordamiento establecidas, como overflow: auto o overflow: scroll, las barras 
+                            de desplazamiento ocuparán este espacio también.
+                        </p>
+                        <br>
+                        <p>
+                            La caja de borde rodea la caja de padding y su espacio está ocupado por el valor del border. La caja de borde son los límites de su caja y el filo del borde 
+                            es el límite de lo que puedes ver visualmente. La propiedad de border se usa para enmarcar visualmente un elemento.
+                        </p>
+                        <br>
+                        <p>
+                            El área final, la caja de margen, es el espacio alrededor de tu caja, definida por la regla de margin. 
+                            Propiedades como el outline y box-shadow ocupan este espacio porque están pintadas por encima de los elementos, por lo que no afectan el tamaño de nuestra caja. 
+                            Puedes tener un outline-width de 200px en nuestra caja y todo lo que está dentro e incluido la caja de borde sería exactamente del mismo tamaño.
+                        </p><br>
+                        <p>Cada elemento HTML es una caja que tiene 4 lados y se compone de cuatro áreas:</p>
+                        <img src="imagenes/margen.png"width="700"height="450" alt="funcionamiento box model">
+                        <br>
+                        <h3>Internos:</h3>
+                        <br>
+                        <ul >
+                            <li>Content Box</li>
+                            <li>Padding Box</li>
+                            <li>Border Box</li>
+                        </ul>
+                        <br>
+                        <h3 class="subtitulos">Externos:</h3>
+                        
+                        <ul >
+                            <li>Margin Box</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <p>Estas áreas se apilan para formar el modelo de caja o box model. Cada elemento HTML es una caja que podemos controlar 
+                        en el espacio exterior con la propiedad margin, después, podemos darle un borde y con la propiedad padding,
+                        también podemos proporcionar los espacios interiores entre el contenido y el borde dentro de la caja.</p>
+                </div>
+                    </div>
+                </section>
+                
+            </div>
+        </div>     
+        
+        <footer id="footer">
+            <p>&copy; Desarrollado Por Grupo_301122_5 Mayo 2023</p>
+        </footer>
+   </body>
+</html>

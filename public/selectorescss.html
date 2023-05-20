@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+    <meta charset="utf-8"/>
+    <title>Selectores CSS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="css/Style.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/logo.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+   </head> 
+   <body>
+        <!--Inicio Cabecera-->
+        <header id="header">
+            <div id="logotipo">
+                <img src="Imagenes/Logo_grupo.png" alt="Logotipo" title="Logo">
+            </div>
+            <h1>
+                <a href="inicio.html">
+                    Trabajo Colaborativo - Grupo 301122_5 - Fase 3
+                </a>
+            </h1>
+        </header>
+        <!--Fin Cabecera-->
+        <!--Menu de Navegacion-->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Temas</a>
+                    <ul>
+                        <li>
+                            <a href="selectorescss.html">Selectores CSS</a>
+                        </li> 
+                        <li>
+                            <a href="qselectorescss.html"> Questionario Selectores CSS</a>
+                        </li>
+                        <li>
+                            <a href="mediaqueries.html">Media Queries</a>
+                        </li>
+                        <li>
+                            <a href="qmediaquery.html"> Questionario Media Queries</a>
+                        </li>
+                        <li>
+                            <a href="flexbox.html">FlexBox</a>
+                        </li>
+                        <li>
+                            <a href="qflexbox.html"> Questionario FlexBox</a>
+                        </li>
+                        <li>
+                            <a href="boxmodel.html">Box Model</a>
+                        </li>
+                        <li>
+                            <a href="qboxmodel.html"> Questionario Box Model</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="audios.html">Audios</a>
+                </li>
+                <li>
+                    <a href="equipo.html">Equipo</a>
+                </li>
+            <ul>
+        </nav>
+        <div id="content">
+            <!--Inicio Barra Lateral-->
+                <aside id="aside">
+                    <div class= "widget" id="login">
+                        <h3>Menu Alterno</h3>
+                        <ul>
+                            <li>
+                                <a href="inicio.html">Inicio</a>
+                            </li>
+                                <li>
+                                    <a href="inicio.html">Temas</a>
+                                    <ul>
+                                        <li>
+                                            <a href="selectorescss.html">Selectores CSS</a>
+                                        </li> <li>
+                                            <a href="mediaqueries.html">Media Queries</a>
+                                        </li>
+                                        <li>
+                                            <a href="flexbox.html">FlexBox</a>
+                                        </li>
+                                        <li>
+                                            <a href="boxmodel.html">Box Model</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            <li>    
+                                <a href="audios.html">Audios</a>
+                            </li>
+                            <li>
+                                <a href="equipo.html">Equipo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+               
+            <!--Fin Barra Lateral-->
+            
+            <!--Inicio sesiones-->
+            <div id="sections">
+                <section id="audios">
+                    <span class="sticker">
+                        <img class="stickerone" src="Imagenes/scotch.png" alt="Pegatina"/>
+                        <img class="stickertwo" src="Imagenes/scotch.png" alt="Pegatina"/>
+                    </span>
+                    <h2 class="titulo">Selectores CSS - Sergio Chica</h2>
+                    <article>
+                            <h2 class="title">Selectores CSS</h2>
+                            <p class="principal">Estos son lo que definen sobre que elementos se van a aplicar las reglas CSS</p>
+                            <article class="article">
+                                <h3 class="title">Selectores Básicos:</h3> 
+                                <h4 class="title">Selector de tipo</h4>
+                                    <p>
+                                        Este selecciona todos los elementos del desarrollo en HTML que coincidan con el selector, Ejemplo: 
+                                        Tenemos la etiqueta H1 al seleccionarla en CSS quedaría de la siguiente manera: <br><br>
+                                    <img class="imgejemplo" src="Imagenes/selector de tipo.PNG" alt="Ejemplo Selector de Tipo">  
+                                    </p>
+                                    <hr>
+                                <h4 class="title">Selector de Clase: </h4>
+                                <p>
+                                    Selecciona todos los elementos del desarrollo HTML que tengan el atributo “Class” especificado, ejemplo:
+                                    Tenemos el siguiente fragmento de código : <br> <br>
+                                    <img class="imgejemplo" src="Imagenes/Selector de clase.PNG" alt="Ejemplo de Selector de Clases">   
+                                </p>
+                                <hr>
+                                <h4 class="title">Selector de ID</h4>
+                                <p>
+                                    Selecciona un elemento basándose en el atributo “id”. Este tipo de selector selecciona solo un elemento de la página, 
+                                    porque el valor del atributo id no se puede repetir en dos elementos diferentes de la misma página. Ejemplo:  <br><br>
+                                    <img class="imgejemplo" src="Imagenes/Selector de ID.PNG" alt="Ejemplo de Selector de ID">
+                                </p>
+                                <hr>
+                                <h4 class="title">Selector Universal</h4>
+                                <p>
+                                    Este selecciona todos los elementos del código se escribe o representa a través de un *, Ejemplo:  <br><br>
+                                    <img class="imgejemplo" src="Imagenes/Selector Universal.PNG" alt="Ejemplo de Selector Universal">
+                                </p>
+                                <hr>
+                                <h4 class="title">Selector de Atributo</h4>
+                                <p>
+                                    Los selectores de atributos se utilizan para seleccionar todos los elementos correspondientes a un atributo específico o valor de atributo definido. 
+                                    Por ejemplo, a[href] seleccionará todos los enlaces, mientras que a[href*="google"] solo seleccionará todas las URL que contengan la palabra "google". 
+                                    Este selector tiene una sintaxis un poco compleja la cual veremos líneas abajo: 
+                                    <ul>
+                                        <li>[attr] { propiedades de estilo }</li>
+                                        <li>[attr=value] { propiedades de estilo }</li>
+                                        <li>[attr~=value] { propiedades de estilo }</li>
+                                        <li>[attr|=value] { propiedades de estilo }</li>
+                                        <li>[attr^=value] { propiedades de estilo }</li>
+                                        <li>[attr$=value] { propiedades de estilo }</li>
+                                        <li>[attr*=value] { propiedades de estilo }</li>
+                                    </ul>
+                                    Ejemplo 
+                                    <br><br>
+                                    <img class="imgejemplo" src="Imagenes/Selector de atributo.PNG" alt="Ejemplo de Selector de Atributo">
+                                </p>
+                                <hr>
+                                <h4 class="title">Selector de Pseudoclase</h4>
+                                <p>
+                                    Un selector de pseudo-clase permite modificar CSS a un grupo seleccionado de elementos o a los mismos que se encuentran en un estado específico. 
+                                    Por ejemplo, el atributo :hover hará que solo se modifique el estilo de un elemento cuando el usuario pase sobre él. Ejemplo :  <br><br>
+                                    <img class="imgejemplo" src="Imagenes/Selector pseudoclase.PNG" alt="Ejemplo de Selector Pseudoclase">
+                                </p>
+                                <hr>
+                            </article>   
+                        </article>
+                </section>                
+            </div>    
+        </div>
+        <footer id="footer">
+            <p>&copy; Desarrollado Por Grupo_301122_5 Mayo 2023</p>
+        </footer>
+   </body>
+</html>     

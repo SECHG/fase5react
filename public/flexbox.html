@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+    <meta charset="utf-8"/>
+    <title>FlexBox</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="css/Style.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/logo.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+   </head> 
+   <body>
+        <!--Inicio Cabecera-->
+        <header id="header">
+            <div id="logotipo">
+                <img src="Imagenes/Logo_grupo.png" alt="Logotipo" title="Logo">
+            </div>
+            <h1>
+                <a href="inicio.html">
+                    Trabajo Colaborativo - Grupo 301122_5 - Fase 3
+                </a>
+            </h1>
+        </header>
+        <!--Fin Cabecera-->
+        <!--Menu de Navegacion-->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Temas</a>
+                    <ul>
+                        <li>
+                            <a href="selectorescss.html">Selectores CSS</a>
+                        </li> 
+                        <li>
+                            <a href="qselectorescss.html"> Questionario Selectores CSS</a>
+                        </li>
+                        <li>
+                            <a href="mediaqueries.html">Media Queries</a>
+                        </li>
+                        <li>
+                            <a href="qmediaquery.html"> Questionario Media Queries</a>
+                        </li>
+                        <li>
+                            <a href="flexbox.html">FlexBox</a>
+                        </li>
+                        <li>
+                            <a href="qflexbox.html"> Questionario FlexBox</a>
+                        </li>
+                        <li>
+                            <a href="boxmodel.html">Box Model</a>
+                        </li>
+                        <li>
+                            <a href="qboxmodel.html"> Questionario Box Model</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="audios.html">Audios</a>
+                </li>
+                <li>
+                    <a href="equipo.html">Equipo</a>
+                </li>
+            <ul>
+        </nav>
+
+        <div id="content">
+            <!--Inicio Barra Lateral-->
+                <aside id="aside">
+                    <div class= "widget" id="login">
+                        <h3>Menu Alterno</h3>
+                        <ul>
+                            <li>
+                                <a href="inicio.html">Inicio</a>
+                            </li>
+                                <li>
+                                    <a href="inicio.html">Temas</a>
+                                    <ul>
+                                        <li>
+                                            <a href="selectorescss.html">Selectores CSS</a>
+                                        </li> <li>
+                                            <a href="mediaqueries.html">Media Queries</a>
+                                        </li>
+                                        <li>
+                                            <a href="flexbox.html">FlexBox</a>
+                                        </li>
+                                        <li>
+                                            <a href="boxmodel.html">Box Model</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            <li>    
+                                <a href="audios.html">Audios</a>
+                            </li>
+                            <li>
+                                <a href="equipo.html">Equipo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+               
+            <!--Fin Barra Lateral-->
+          
+            <!--Inicio sesiones-->
+            <div id="sections">
+                <section id="audios">
+                    <span class="sticker">
+                        <img class="stickerone" src="Imagenes/scotch.png" alt="Pegatina"/>
+                        <img class="stickertwo" src="Imagenes/scotch.png" alt="Pegatina"/>
+                    </span>
+                    <h2 class="titulo">FlexBox - Diego Gaviria</h2>
+                    <article>
+                        <h2>Que es Flex Box?</h2><br>
+                        <p>
+                            Flex box es un módulo de diseño de CSS3 diseñado para mejorar la forma en que se realiza el diseño receptivo, 
+                            evitando el uso de flotantes, escribiendo menos código y facilitando la colocación de elementos, incluso si no 
+                            conoce su tamaño. Básicamente la idea de Flex box es poder cambiar de forma óptima el ancho, el alto y la posición 
+                            de los elementos en función del espacio del que dispongamos.
+                        </p><br>
+                        <h3>Estructura de Flex Box</h3><br>
+                        <img src="Imagenes/Contenedor.jpg" alt="Contenedor Flex-Box">
+                        <h4>Contenedor Flex:</h4><br>
+                        <p>
+                          Es nuestro contenedor padre, y es él quién va a contener a todos los elementos hijos a los cuáles queremos posicionar.
+                        </p><br>
+                        <h4>Elemento Flex</h4>
+                        <p><br>
+                            Es nuestro elemento hijo, el cual utilizará todo el espacio disponible para ubicarse de acuerdo con las propiedades 
+                            a las cuales este sometido junto a los demás Elementos-Flex contenidos.
+                        </p><br>
+                        <h4>Cada diseño Flex está compuesto por dos ejes: </h4>
+                        <ul><br>
+                            <li>Un eje principal que define el posicionamiento horizontal de los Elementos-Flex.</li>
+                            <li>Un eje secundario que define el posicionamiento vertical de los Elementos-Flex.</li>
+                        </ul>
+                        <p>El Contendor-Flex contiene direcciones que definen el origen y el fin del flujo de Elementos-Flex:</p><br>
+                        <ul>
+                            <li>Inicio principal </li>
+                            <li>Fin principal</li>
+                            <li>Inicio secundario</li>
+                            <li>Fin secundario</li>
+                        </ul><br>
+                        <h2>Propiedades</h2><br>
+                        <h3>Flex Direction</h3><br>
+                        <p>Encargada de definir cual será el eje principal y secundario</p><br>
+                        <img src="Imagenes/flex_direction.png" alt="Imagen flex_direction"><hr> <br>
+                        <h3>Flex Wrap</h3><br>
+                        <p>Cuando no se puede ordenar en una única línea los elementos, esta propiedad se encarga de solucionar el problema</p>
+                        <img src="Imagenes/flex_wrap.png" alt="Imagen flex_wrap"><hr><br>
+                        <h3>Justify Content</h3><br>
+                        <p>Cuando nombramos el eje principal de un padre este hereda a los hijos para dar direccionamiento</p><br>
+                        <img src="Imagenes/justify1.png" alt="Imagen Justify-Content"><br>
+                        <img src="Imagenes/justify2.png" alt="Imagen Justify-Content"><br><hr>
+                        <h3>Align Items</h3><br>
+                        <p>Esta propiedad al contrario de alinear en el eje horizontal lo hace en el vertical</p>
+                        <img src="Imagenes/align1.png" alt="Imagen Align Items"><br>
+                        <img src="Imagenes/align2.png" alt="Imagen Align Items"><br>
+                    </article>
+                </section>                
+            </div>
+        </div>
+
+        <footer id="footer">
+            <p>&copy; Desarrollado Por Grupo_301122_5 Mayo 2023</p>
+        </footer>
+   </body>
+</html>     

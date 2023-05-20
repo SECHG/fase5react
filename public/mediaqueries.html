@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+    <meta charset="utf-8"/>
+    <title>Media Queries</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="css/Style.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/logo.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+   </head> 
+   <body>
+        <!--Inicio Cabecera-->
+        <header id="header">
+            <div id="logotipo">
+                <img src="Imagenes/Logo_grupo.png" alt="Logotipo" title="Logo">
+            </div>
+            <h1>
+                <a href="inicio.html">
+                    Trabajo Colaborativo - Grupo 301122_5 - Fase 3
+                </a>
+            </h1>
+        </header>
+        <!--Fin Cabecera-->
+        <!--Menu de Navegacion-->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Temas</a>
+                    <ul>
+                        <li>
+                            <a href="selectorescss.html">Selectores CSS</a>
+                        </li> 
+                        <li>
+                            <a href="qselectorescss.html"> Questionario Selectores CSS</a>
+                        </li>
+                        <li>
+                            <a href="mediaqueries.html">Media Queries</a>
+                        </li>
+                        <li>
+                            <a href="qmediaquery.html"> Questionario Media Queries</a>
+                        </li>
+                        <li>
+                            <a href="flexbox.html">FlexBox</a>
+                        </li>
+                        <li>
+                            <a href="qflexbox.html"> Questionario FlexBox</a>
+                        </li>
+                        <li>
+                            <a href="boxmodel.html">Box Model</a>
+                        </li>
+                        <li>
+                            <a href="qboxmodel.html"> Questionario Box Model</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="audios.html">Audios</a>
+                </li>
+                <li>
+                    <a href="equipo.html">Equipo</a>
+                </li>
+            <ul>
+        </nav>
+        <div id="content">
+            <!--Inicio Barra Lateral-->
+                <aside id="aside">
+                    <div class= "widget" id="login">
+                        <h3>Menu Alterno</h3>
+                        <ul>
+                            <li>
+                                <a href="inicio.html">Inicio</a>
+                            </li>
+                                <li>
+                                    <a href="inicio.html">Temas</a>
+                                    <ul>
+                                        <li>
+                                            <a href="selectorescss.html">Selectores CSS</a>
+                                        </li> <li>
+                                            <a href="mediaqueries.html">Media Queries</a>
+                                        </li>
+                                        <li>
+                                            <a href="flexbox.html">FlexBox</a>
+                                        </li>
+                                        <li>
+                                            <a href="boxmodel.html">Box Model</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            <li>    
+                                <a href="audios.html">Audios</a>
+                            </li>
+                            <li>
+                                <a href="equipo.html">Equipo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+               
+            <!--Fin Barra Lateral-->
+           
+            <!--Inicio sesiones-->
+            <div id="sections">
+                <section id="audios">
+                    <span class="sticker">
+                        <img class="stickerone" src="Imagenes/scotch.png" alt="Pegatina"/>
+                        <img class="stickertwo" src="Imagenes/scotch.png" alt="Pegatina"/>
+                    </span>
+                        <h2 class="titulo">Media Queries - juan Rivera</h2> 
+                        </p>
+                        <h4>Que es</h4>
+                        <p>
+                            Las media queries son una técnica de diseño web que permite adaptar el contenido de un sitio web a
+                            diferentes dispositivos y tamaños de pantalla. <br>
+                            En resumen, las media queries permiten definir diferentes reglas de estilo CSS para diferentes
+                            tamaños de pantalla, lo que permite que el contenido se vea óptimo en cualquier dispositivo. <br>
+                        </p>
+                    </article>
+                    <article>
+                        <h4>Como funciona</h4>
+                        <p>
+                            Las media queries funcionan utilizando una serie de condiciones que se aplican a diferentes anchuras
+                            de pantalla. Estas condiciones pueden ser específicas para diferentes tipos de dispositivos, <br>
+                            como teléfonos móviles, tabletas y ordenadores de escritorio.
+                        </p>
+                    </article>
+                    <article>
+                        <h4>Como se puede aplicar</h4>
+                        <p>
+                            Para aplicar media queries en un sitio web, se utilizan reglas CSS con una sintaxis específica.
+                            Estas reglas se aplican utilizando el atributo "media" y una serie de parámetros que especifican
+                            <br>
+                            las condiciones de visualización. Por ejemplo:
+                        <p></p>
+                        <img src="Imagenes/Ejemplo1.png" alt="Ejemplo1">
+                        <p></p>
+                        En este ejemplo, se utilizan tres media queries para definir diferentes reglas de estilo para tres
+                        tamaños de pantalla diferentes. La primera media query aplica estilos CSS para pantallas de hasta <br>
+                        768px de ancho, la segunda aplica estilos para pantallas de entre 768px y 1024px de ancho, y la tercera
+                        aplica estilos para pantallas de más de 1024px de ancho.
+                        <p></p>
+                        Las media queries también pueden utilizarse para especificar otros parámetros, como la orientación de la
+                        pantalla, la densidad de píxeles o el tipo de dispositivo. Por ejemplo:
+                        <p></p>
+                        <img src="Imagenes/Ejemplo2.png" alt="Ejemplo2">
+                        <p></p>
+                        En resumen, las media queries son una técnica fundamental para el diseño web adaptable, que permite a
+                        los desarrolladores web crear sitios web que se adapten a diferentes tamaños y tipos de pantalla. <br>
+                        Al utilizar las media queries, se pueden crear diseños flexibles y fluidos que se vean bien en cualquier
+                        dispositivo, lo que mejora la experiencia del usuario y la accesibilidad del sitio web.
+                        <hr>
+                        </p>
+                    </article>
+                </section>                
+            </div>
+        </div>
+        <footer id="footer">
+            <p>&copy; Desarrollado Por Grupo_301122_5 Mayo 2023</p>
+        </footer>
+   </body>
+</html>     
